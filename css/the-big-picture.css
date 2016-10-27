@@ -14,11 +14,27 @@ body {
     margin-bottom:  50px;
 }
 
-.nav-logo {
-    height: 50px;
-    margin-top: -16px;
+
+
+nav.navbar {
+    background: url(../img/topbar-stretch.png) repeat-x;
+    height: 381px;
 }
 
+nav .container {
+    height: 381px;
+    width: 1662px;
+    background: url(../img/topbar.png);
+
+}
+
+.navbar-header {
+    position: absolute;
+    left: 518px;
+    top: 74px;
+    height: 200px;
+    font-size: 60px;
+}
 .intro-section {
 
     -webkit-background-size: cover;
@@ -29,25 +45,31 @@ body {
 
 }
 
-.intro-section .row{
-    margin-top: 100px;
+nav div div ul li a{
+    color:beige;
 }
+
+.intro-section .row{
+    margin-top: 300px;
+}
+
+
 
 @media(max-width: 1920px) {
     .intro-section {
-        background: url(../mfahd.png) no-repeat center center fixed;
+        background: url(../img/mfahd.png) no-repeat center center fixed;
     }
 }
 
 @media(max-width: 1028px) {
     .intro-section {
-        background: url(../mfatablet.png) no-repeat center center fixed;
+        background: url(../img/mfatablet.png) no-repeat center center fixed;
     }
 }
 
 @media(max-width: 768px) {
     .intro-section {
-        background: url(../mfaphone.png) no-repeat center center fixed;
+        background: url(../img/mfaphone.png) no-repeat center center fixed;
     }
 }
 
